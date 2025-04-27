@@ -1,1 +1,1 @@
-web: heroku-php-apache2 public/
+web: php-fpm -D && php artisan serve --host=0.0.0.0 --port=$PORT

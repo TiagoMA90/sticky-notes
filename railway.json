@@ -5,7 +5,7 @@
     "APP_KEY": "base64:7AsWCZTA6WWdUEe7AIqoGJCwv660BHNhjnBKt5meABI=",
     "APP_ENV": "production",
     "APP_DEBUG": "false",
-    "APP_URL": "https://your-app-name.up.railway.app",
+    "APP_URL": "https://web-production-84a2.up.railway.app/",
     "DB_CONNECTION": "sqlite",
     "DB_DATABASE": "/workspace/sticky-notes/database/database.sqlite"
   }
