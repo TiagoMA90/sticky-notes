@@ -1,5 +1,5 @@
 {
-  "buildCommand": "composer install --no-dev --optimize-autoloader --no-scripts",
+  "buildCommand": "composer install --no-dev --optimize-autoloader",
   "startCommand": "php-fpm -D && php artisan serve --host=0.0.0.0 --port=$PORT",
   "env": {
     "APP_KEY": "base64:7AsWCZTA6WWdUEe7AIqoGJCwv660BHNhjnBKt5meABI=",
