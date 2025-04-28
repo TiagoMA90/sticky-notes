@@ -59,7 +59,7 @@ return [
             ]) : [],
         ],
 
-        'pgsql' => [
+            'pgsql' => [
             'driver' => 'pgsql',
             'url' => env('DB_URL'),
             'host' => env('DB_HOST', '127.0.0.1'),
