@@ -9,7 +9,7 @@ use App\Models\Post;
 
 // routes/web.php
 Route::get("/", function() {
-    $posts = Post::all();
+    $posts = Post::with('user')->orderBy('created_at', 'desc')->get();
     
     /* To filter posts by authenticated User comment the lined above and uncomment this "if" statement
     $posts = [];
